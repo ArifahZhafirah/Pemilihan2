@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class ModifikasiPercobaan1 {
      public static void main(String[] args) {
-        Scanner inputAbsen25 = new Scanner(System.in);
+        Scanner input25 = new Scanner(System.in);
         System.out.println("Masukkan tahun");
-        int tahun = inputAbsen25.nextInt();
+        int tahun = input25.nextInt();
 
         if (tahun % 4 == 0) {
             if (tahun % 100 == 0) {
@@ -19,6 +19,6 @@ public class ModifikasiPercobaan1 {
             System.out.println("Bukan tahun kabisat");
         }
 
-        inputAbsen25.close();
+        input25.close();
      }
 }

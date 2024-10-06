@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TugasLatihan125 {
+public class BilanganTerbesarLogika {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
